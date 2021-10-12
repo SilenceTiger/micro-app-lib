@@ -12,17 +12,15 @@
 - src/editor --- 自定义表单
 
 ## 3 module （todo）
-
-line - lucong
-bar - xiaoai
-other - ahao
-
 | 组件       | 说明     | 备注     |
 | :--------- | :------- | :------- |
-| QueryTable | 查询表格   |        |
-| NormalModal| 普通弹窗   |        |
-| Line       | 折线图   |          |
-| Bar        | 柱状图   |          |
+| QueryTable | 查询表格   |   nn   |
+| FlowTable | 查询表格   |   nn    |
+| NormalModal | 普通弹窗   |   a     |
+| NormalForm |  表单  |  c    |
+| BackgroundCard |  大屏卡片背景  |  l   |
+| Line       | 折线图   |     l     |
+| Bar        | 柱状图   |     l     |
 | Pie        | 饼状图   |          |
 | RichText   | 富文本   |          |
 | Image      | 图片     |          |
@@ -36,7 +34,7 @@ other - ahao
 
 TODO：尽量集成 echarts 支持的图表、后续可支持 three.js babalon.js d3.js
 
-## 4 editor 自定义表单（todo）-ningning
+## 4 editor 自定义表单（todo）- c
 
 | 组件           | 说明            | 类型     |
 | :------------- | :-------------- | :------- |
@@ -54,7 +52,7 @@ TODO：尽量集成 echarts 支持的图表、后续可支持 three.js babalon.j
 
 TODO：编辑器都有 onChange 事件（后面可加 debounce 函数），将变化吐出到最外层
 
-`<Editor config={config} onChange={onChange} />`
+`<Editor config={config} onChange={onChange} ref={ref} />`
 
 ## 4 theme （todo）
 

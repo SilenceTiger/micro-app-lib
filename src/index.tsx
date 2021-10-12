@@ -1,8 +1,7 @@
 import * as React from 'react';
 import { Button } from 'antd';
 import 'antd/dist/antd.css';
-import './style.css';
-import './sass.scss';
+import './overide.scss';
 
 export { default as QueryTable } from './modules/QueryTable';
 export { default as NormalModal } from './modules/NormalModal';
