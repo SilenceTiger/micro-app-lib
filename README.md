@@ -1,5 +1,6 @@
 ## 1 micro-app-lib
-npm i micro-app-lib
+`npm i micro-app-lib`
+
 `import { QueryTable } from 'micro-app-lib'` 
 ## 2 文件管理
 
